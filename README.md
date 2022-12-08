@@ -9,7 +9,7 @@ pnpm add esbuild-vanilla-image-loader -D
 ```
 
 ```ts
-import react from '@vitejs/plugin-react'
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin'
 import { ImageLoader } from 'esbuild-vanilla-image-loader'
 
 export default defineConfig({
@@ -19,7 +19,6 @@ export default defineConfig({
         plugins: [ImageLoader()],
       }
     }),
-    react()
   ],
 })
 ```
