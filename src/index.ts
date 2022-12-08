@@ -15,7 +15,7 @@ export function ImageLoader(options?: Options): Plugin {
       }, (args) => {
         if (options?.dataUrl) {
           return {
-            content: fs.readFileSync(args.path),
+            contents: fs.readFileSync(args.path),
             loader: 'dataurl',
           }
         }
