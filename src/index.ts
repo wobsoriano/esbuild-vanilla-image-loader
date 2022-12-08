@@ -11,7 +11,7 @@ export function ImageLoader(options?: Options): Plugin {
     name: 'esbuild-vanilla-image-loader',
     setup(build) {
       build.onLoad({
-        filter: options?.filter ?? /\.(gif|jpe?g|tiff?|png|webp|bmp)$/,
+        filter: options?.filter ?? /\.(gif|jpe?g|tiff?|png|webp|bmp|svg)$/,
       }, (args) => {
         if (options?.dataUrl) {
           return {
