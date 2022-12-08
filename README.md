@@ -42,7 +42,7 @@ export const root = style({
 
 ```ts
 ImageLoader({
-  filter: /\.(gif|jpe?g|tiff?|png|webp|bmp)$/,
+  filter: /\.(gif|jpe?g|tiff?|png|webp|bmp|svg)$/,
   dataUrl: false, // Read file as dataurl
 })
 ```
