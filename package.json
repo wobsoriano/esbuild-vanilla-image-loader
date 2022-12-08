@@ -1,6 +1,6 @@
 {
   "name": "esbuild-vanilla-image-loader",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.14.0",
   "description": "",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
