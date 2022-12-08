@@ -38,6 +38,15 @@ export const root = style({
 })
 ```
 
+## Options
+
+```ts
+ImageLoader({
+  filter: /\.(gif|jpe?g|tiff?|png|webp|bmp)$/,
+  dataUrl: false, // Read file as dataurl
+})
+```
+
 ## License
 
 MIT
