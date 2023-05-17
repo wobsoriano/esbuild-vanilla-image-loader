@@ -1,7 +1,7 @@
 {
   "name": "esbuild-vanilla-image-loader",
   "version": "0.1.3",
-  "packageManager": "pnpm@7.14.0",
+  "packageManager": "pnpm@8.5.1",
   "description": "",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "license": "MIT",
@@ -35,13 +35,13 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "@types/node": "^18.11.11",
-    "bumpp": "^8.2.1",
-    "esbuild": "^0.16.1",
-    "eslint": "^8.26.0",
-    "tsup": "6.0.1",
-    "typescript": "^4.7.4"
+    "@antfu/eslint-config": "^0.38.6",
+    "@types/node": "^18.16.12",
+    "bumpp": "^9.1.0",
+    "esbuild": "^0.17.19",
+    "eslint": "^8.40.0",
+    "tsup": "6.7.0",
+    "typescript": "^5.0.4"
   },
   "eslintConfig": {
     "extends": "@antfu"
